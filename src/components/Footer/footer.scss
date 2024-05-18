@@ -1,0 +1,41 @@
+.footer {
+    width: 100%;
+    background: #0B2A5A;
+    padding: 50px 0px;
+    color: #ffff;
+
+    .container {
+        .footer_content {
+            display: flex;
+            justify-content: space-between;
+
+            .aboutCompany{
+                margin-top: 0px;
+            }
+
+            h5 {
+                font-size: 25px;
+                margin-bottom: 20px;
+                font-family: "Roboto Condensed", sans-serif;
+                font-weight: 500;
+            }
+
+            h6 {
+                font-size: 16px;
+                margin-top: 20px;
+            }
+
+            .contactUs{
+                display: flex;
+                flex-direction: column;
+                a{
+                    text-decoration: none;
+                    color: #ffff;
+                }
+            }
+            .iconsMedia{
+                margin-top: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@import 'loaders.css/src/animations/ball-clip-rotate.scss';
+
+.loading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .container{
+        .loading_loader{
+            margin: 0 auto;
+        }
+    }
+}

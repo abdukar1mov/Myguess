@@ -1,0 +1,27 @@
+.logos {
+    background: rgba(6, 21, 45, 1);
+    width: 100%;
+    height: 100px;
+    .container {
+        .logos_pic {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .logoBord {
+                text-align: center;
+                width: 200px;
+                height: 60px;
+                background: rgba(221, 221, 221, 0.15);
+                border-radius: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 21px;
+                img {
+                    width: 100px;
+                }
+            }
+        }
+    }
+}
